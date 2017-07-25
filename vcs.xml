@@ -12,6 +12,6 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="/opt/lampp/htdocs/projects/hesfet" />
+    <option name="cloneParentDir" value="/opt/lampp/htdocs/projects" />
   </component>
 </application>
