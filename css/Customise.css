@@ -57,7 +57,7 @@ body{
 }
 .thirdc2 {
     border-radius: 2px;
-    background-color: green;
+    background-color: #031122;
     height: 180px;
     z-index: 10;
 }
@@ -295,26 +295,46 @@ div.newscalender p{
 /*end*/
 /*second column styles*/
 .c2r1{
-    background-color: #2e6da4;
+    background-color: #182f48;
 }
 .c2r2c1{
     height: 160px;
-    background-color: #ce8483;
+    background-color: #907982;
 }
 .c2r2c2{
     height: 160px;
-    background-color: #d9534f;
+    background-color: #c885a0;
 }
 .c2r2c3{
     height: 160px;
-    background-color: #ce8483;
+    background-color: #895c79;
 
 }
 .c2r2c4{
     height: 160px;
-    background-color: #d9534f;
+    background-color: #9f7c8a;
 }
 .c2r2 img{
     width: 100%;
     height: 380px;
+}
+.c2r2{
+    text-align: center;
+}
+.btn{
+    border-radius: 15px;
+    margin-top: 5px;
+    background-color: #1e232f;
+    width: 82%;
+    font-size: 9px;
+    text-align: left;
+}
+.c2r3c1{
+    background-color: #09203b;
+}
+.c2r3c2{
+    background-color: #cf5678;
+}
+.c2r3c3{
+    background-color: #cf5678;
 }
