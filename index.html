@@ -3,8 +3,12 @@
 <head>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Customise.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Smartiza</title>
+
+
 </head>
 <body>
 <div class="container">
@@ -12,10 +16,84 @@
         <div class="col-md-12">
             <div class="col-md-6 c1">
                 <div class="row">
-                    <div class="firstc1"></div>
+                    <div class="firstc1">
+                            <iframe src="https://www.aparat.com/video/video/embed/videohash/pIjCF/vt/frame" height="320"
+                                    width="100%" allowFullScreen="true" webkitallowfullscreen="true"
+                                    mozallowfullscreen="true"></iframe>
+                    </div>
+
                 </div>
                 <div class="row">
-                    <div class="secondc1"></div>
+                    <div class="secondc1">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="boxt">
+                                    <div class="titleb">
+                                        <h2>New Applications</h2>
+                                    </div>
+                                    <div class="subtitleb">
+                                        <h2>PUBLISHED</h2>
+                                    </div>
+                                    <div class="subtitlebh3">
+                                        <h3>Available on Market</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="boxt">
+                                    <div class="titleb">
+                                        <h2>Projects</h2>
+                                    </div>
+                                    <br>
+                                    <div class="subtitlebh3"style="float: left;padding-top: 10px;padding-right: 40px">
+                                        <h3>On Progress</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="boxt">
+                                    <div class="titleb">
+                                        <h2>Projects</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="boxc">
+                                    <div class="slider center">
+                                        <div>
+                                            <img src="http://placehold.it/350x300?text=1">
+                                        </div>
+                                        <div>
+                                            <img src="http://placehold.it/350x300?text=2">
+                                        </div>
+                                        <div>
+                                            <img src="http://placehold.it/350x300?text=3">
+                                        </div>
+                                        <div>
+                                            <img src="http://placehold.it/350x300?text=4">
+                                        </div>
+                                        <div>
+                                            <img src="http://placehold.it/350x300?text=5">
+                                        </div>
+                                        <div>
+                                            <img src="http://placehold.it/350x300?text=6">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                </div>
+                            <div class="row">
+                                <div class="boxc"></div>
+
+                            </div>
+                            <div class="row">
+                                <div class="boxc"></div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="thirdc1"></div>
@@ -49,8 +127,39 @@
                 </div>
             </div>
         </div>
+
 </div>
 </div>
-<script SRC="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.js"></script>
+<script type="text/javascript">
+    $(document).on('ready', function() {
+    $('.center').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    })});
+</script>
 </body>
 </html>
