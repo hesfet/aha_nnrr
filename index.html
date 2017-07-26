@@ -7,7 +7,25 @@
     <link rel="stylesheet" href="css/slick-theme.css">
     <meta charset="UTF-8">
     <title>Smartiza</title>
+    <script type="text/javascript">
+        function startTime() {
+        var today = new Date();
+        var monthNames = ["January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ];
+        var dayNames = [ "Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday","Saturday" ];
+        var y = today.getFullYear();
+        var m =  monthNames[today.getMonth()];
+        var dw= dayNames[today.getDay()];
+        var dm = today.getDate();
+        document.getElementById('dayofweek').innerHTML = dw ;
+        document.getElementById('dayofmonth').innerHTML= dm ;
+        document.getElementById('month').innerHTML = m ;
+        document.getElementById('year').innerHTML = y ;
 
+
+    }
+    </script>
 
 </head>
 <body>
@@ -84,7 +102,9 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="boxc"></div>
+                                <div class="boxc">
+
+                                </div>
 
                             </div>
                             <div class="row">
@@ -112,16 +132,59 @@
                 </div>
                 <div class="col-md-6 c3">
                     <div class="row">
-                        <div class="firstc3"></div>
+                        <div class="firstc3 calendar" >
+
+                            <div   class="calendarText" id="dayofweek"></div>
+                            <div  class="calendarNumber"id="dayofmonth"></div>
+                            <div class="calendarText" id="month"></div>
+                            <div class="calendarNumber" id="year"> </div>
+                        </div>
                     </div>
                     <div class="row">
-                        <div class="secondc3"></div>
+                        <div class="secondc3 logIn">  </div>
                     </div>
                     <div class="row">
                         <div class="thirdc3"></div>
                     </div>
                     <div class="row">
-                        <div class="forthc3"></div>
+                        <div class="forthc3 news">
+
+                            <div class="comment">
+                                <p > AUTHOR PIXELKIT DOT COM . 1 COMMENT </p>
+
+                            </div>
+
+
+                            <div>
+
+
+                                <div class ="newscalender">
+                                    <p class="newscalendernum"> 25 </p>
+                                    <p > March 2013 </p>
+
+
+                                </div>
+
+                                <div class="newstitle">
+                                    <h5 > title for news title for news title for news title for news title for news title for news</h5>
+                                </div>
+
+                            </div>
+
+
+                            <div class ="newscontent">
+                                <p> content for the news content for the news content for the news content for the news content for the news
+                                    content for the news content for the news content for the news content for the news </p>
+
+                            </div>
+
+                            <div class="sliderimage" >
+                                <img src="img/slide.png"  class="img-responsive">
+
+                            </div>
+
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -161,6 +224,8 @@
             }
         ]
     })});
+
+
 </script>
 </body>
 </html>

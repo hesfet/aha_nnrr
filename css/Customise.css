@@ -28,7 +28,7 @@ body{
 }
 .secondc1{
     border-radius: 2px;
-    height: 360px;
+    height: 226px;
     z-index: 10;
     padding-top: 2px;
 
@@ -156,7 +156,7 @@ body{
 }
 .boxc .slider {
     display: inline-block;
-
+    bottom: 13px;
     text-align: center;
     width: 90%;
 }
@@ -174,3 +174,122 @@ body{
 .boxc .slick-next:before {
     color: black;
 }
+/*begin*/
+/* css style for row one column three which shows calender>*/
+.calendar{
+    background-image: url("../img/time.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    border-radius: 5%;
+
+}
+
+.calendarNumber{
+    color:#626262;
+    padding-right: 3%;
+    padding-right: 5%;
+    font-size:25px;
+    text-shadow: 1px 1px #626262;
+}
+.calendarText{
+    color:#626262;
+    padding:3%;
+    padding-right :5%;
+    font-size:20px;
+    text-shadow: 1px 1px #626262;
+}
+
+/* css style for row one column three which shows calender>*/
+/*end*/
+
+
+
+
+.sliderimage{
+    border-radius: 5%;
+    display: block;
+
+}
+
+.sliderimage img {
+    border-radius: 5%;
+    display: inline-block;
+}
+
+
+
+
+
+
+/*begin*/
+/* css style for row two column three which shows log in form */
+
+
+
+
+
+/* css style for row two column three which shows log in form */
+/*end*/
+
+.logIn{
+    border-radius: 5%;
+    background-color:#09203b ;
+
+}
+
+/*begin*/
+/* css style for row four column three which shows news */
+
+.news{
+    background-color:transparent;
+}
+.comment{
+    padding:1%;
+}
+.comment p {
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+    text-align: right;
+    font-size: 10px;
+}
+.newscalender{
+
+    height: 85px;
+    float:right;
+    width: 30%;
+    background-color:#ad8a98;
+}
+div.newscalender p{
+    margin-top:0;
+    text-align: center;
+    color:#58454e;
+    font-size: 12px;
+
+}
+.newscalendernum{
+    margin:0;
+    padding-top : 15%;
+    font-size: 25px !important;
+}
+
+.newstitle{
+    width : 70%;
+    text-align: right;
+    marging-top:0;
+    margin-right: 2px;
+    color:#eff1f3;
+    padding: 0 2% 5% 5%;
+
+}
+.newscontent{
+
+    text-align: right;
+    padding : 2% 0% 2% 2%;
+    margin : 5% 0% 5% 5%;
+    font-size: 11px;
+    color:#aac3c9;
+}
+/* css style for row four column three which shows news */
+/*end*/
