@@ -7,25 +7,6 @@
     <link rel="stylesheet" href="css/slick-theme.css">
     <meta charset="UTF-8">
     <title>Smartiza</title>
-    <script type="text/javascript">
-        function startTime() {
-        var today = new Date();
-        var monthNames = ["January", "February", "March", "April", "May", "June",
-            "July", "August", "September", "October", "November", "December"
-        ];
-        var dayNames = [ "Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday","Saturday" ];
-        var y = today.getFullYear();
-        var m =  monthNames[today.getMonth()];
-        var dw= dayNames[today.getDay()];
-        var dm = today.getDate();
-        document.getElementById('dayofweek').innerHTML = dw ;
-        document.getElementById('dayofmonth').innerHTML= dm ;
-        document.getElementById('month').innerHTML = m ;
-        document.getElementById('year').innerHTML = y ;
-
-
-    }
-    </script>
 
 </head>
 <body>
@@ -35,7 +16,7 @@
             <div class="col-md-6 c1">
                 <div class="row">
                     <div class="firstc1">
-                            <iframe src="https://www.aparat.com/video/video/embed/videohash/pIjCF/vt/frame" height="320"
+                            <iframe src="https://www.aparat.com/video/video/embed/videohash/pIjCF/vt/frame" height="360"
                                     width="100%" allowFullScreen="true" webkitallowfullscreen="true"
                                     mozallowfullscreen="true"></iframe>
                     </div>
@@ -115,7 +96,36 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="thirdc1"></div>
+                    <div class="thirdc1">
+                        <div class="col-md-6">
+                            <div class="row">
+                            <div class="box1-3-r1">
+                                <h3>ONLINE LAB</h3>
+                            </div>
+                            </div>
+                            <div class="row">
+                                <div class="box1-3-r2"></div>
+                            </div>
+                            <div class="row">
+                                <div class="box1-3-r3"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="box2-3-r1">
+                                    <h3>WORKSHOP</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="box2-3-r2"></div>
+                            </div>
+                            <div class="row">
+                                <div class="box2-3-r3">
+                                    <h3>WORK</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6" style="padding: 0">
@@ -139,39 +149,55 @@
                     </div>
                     <div class="row">
                         <div class="secondc2 c2r2">
-                            <img src="./img/Video-player.png" alt="">
-                        <div class="lists">
-                            <div class="btn btn-success"><i class="glyphicon glyphicon-play"></i>ONE MORE TIME</div>
-                            <div class="btn btn-success"><i class="glyphicon glyphicon-play"></i>ONE MORE TIME</div>
-                            <div class="btn btn-success"><i class="glyphicon glyphicon-play"></i>ONE MORE TIME</div>
-                            <div class="btn btn-success"><i class="glyphicon glyphicon-play"></i>ONE MORE TIME</div>
-                            <div class="btn btn-success"><i class="glyphicon glyphicon-play"></i>ONE MORE TIME</div>
-                            <div class="btn btn-success"><i class="glyphicon glyphicon-play"></i>ONE MORE TIME</div>
-                            <div class="btn btn-success"><i class="glyphicon glyphicon-play"></i>ONE MORE TIME</div>
-                            <div class="btn btn-success"><i class="glyphicon glyphicon-play"></i>ONE MORE TIME</div>
-                            <div class="btn btn-success"><i class="glyphicon glyphicon-play"></i>ONE MORE TIME</div>
+                            <section id="player-container">
 
-                        </div>
+                                <div id="timeBar">
+                                    <div id="timePos">
+
+                                    </div>
+                                </div>
+
+                                <div id="Bg-panel">
+
+                                </div>
+
+
+                                <div id="form">
+
+                                    <div id="circ">
+                                        <div id="introPlay" class="playButton"> </div>
+
+                                        <div id="volumeBar" class="">
+                                            <div id="knob"></div>
+                                        </div>
+
+                                        <div id="fastForward"> </div>
+                                        <div id="rewind"> </div>
+
+                                        <div id="Xit" class="">+</div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="measure"></div>
+
+                                <div id="eqWave">
+                                    <div class="eqBar" id="Bar1"></div>
+                                    <div class="eqBar" id="Bar2"></div>
+                                    <div class="eqBar" id="Bar3"></div>
+                                    <div class="eqBar" id="Bar4"></div>
+                                    <div class="eqBar" id="Bar5"></div>
+                                    <div class="eqBar" id="Bar6"></div>
+
+                                </div>
+
+                            </section>
+
                         </div>
                     </div>
                     <div class="row">
-                        <div class="thirdc2">
-                            <div class="row">
-                                <div class="col-md-4 c2r3c1">top p</div>
-                                <div class="col-md-4 c2r3c2">top s</div>
-                                <div class="col-md-4 c2r3c3">news</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4"><img src="" alt=""></div>
-                                <div class="col-md-4"><img src="" alt=""></div>
-                                <div class="col-md-4"><img src="" alt=""></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4"><img src="" alt=""></div>
-                                <div class="col-md-4"><img src="" alt=""></div>
-                                <div class="col-md-4"><img src="" alt=""></div>
-                            </div>
-                        </div>
+                        <div class="thirdc2"></div>
                     </div>
                 </div>
                 <div class="col-md-6 c3">
@@ -188,7 +214,9 @@
                         <div class="secondc3 logIn">  </div>
                     </div>
                     <div class="row">
-                        <div class="thirdc3"></div>
+                        <div class="thirdc3">
+                            <img src="./img/smartiza.png"class="img-responsive" alt="">
+                        </div>
                     </div>
                     <div class="row">
                         <div class="forthc3 news">
@@ -240,7 +268,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/slick.js"></script>
 <script src="js/slick.min.js"></script>
-
+<script src="js/radio-player.js"></script>
 <script type="text/javascript">
     $(document).on('ready', function() {
     $('.center').slick({
@@ -267,9 +295,97 @@
                 }
             }
         ]
-    })});
+    })
+        //Burger menu animation with greensock / gsap
+        var form = $("#form"),
+                circ = $("#circ"),
+                play = $(".playButton"),
+                fast = $("#fastForward"),
+                rewind = $("#rewind"),
+                timebar = $("#timeBar"),
+                neckBolt = $(".neckBolt"),
+                Xit = $("#Xit"),
+                BG = $("#Bg-panel"),
+                playCont = $("#player-container"),
+                speed = .4;
 
+//instantiate  timeline
+        var tl = new TimelineLite({paused:true}); //pause default
+
+//collapse menu
+        tl
+                .set(play,  {top: "35%", left: '57%', ease:Quart.easeIn})
+                .set(fast,  {opacity: 0, ease:Power4.easeIn}, "label--0")
+                .set(rewind,  {opacity: 0, ease:Power4.easeIn}, "label--0")
+
+
+                .to(circ, .33, { height: 435, width: 435, ease:Quint.easeInOut, force3D:true}, "label--2")
+
+                .to(form, .2, { transformOrigin: '0% 100%', top: 228, height: 172,   ease:Quint.easeInOut, force3D:true}, "label--2")
+
+
+
+                .to(circ, .36, {top: -132, right: -18, ease:Power4.easeInOut, force3D:true}, "label--2")
+
+                .to(play, .4, {top: '40%', left: '48.125%', height:15,width:15, borderWidth:0, scaleX:1, boxShadow: "inset -5px 0px 0px black, inset 5px 0px 0px black", ease:Power4.easeInOut, force3D:true}, "label--2")
+
+                .to(timebar, 0.3, { top: 208, height: 20,  ease:Quint.easInOut, force3D:true}, "label--3-=0.3")
+                .to(Xit, 0.4, { rotation: 225, opacity: 0.54, transformOrigin: "50%, 50%",  ease:Quint.easOut, force3D:true}, "label--3-=0.4")
+
+
+
+                .to(fast, .4, {opacity: 0.75, ease:Power4.easeInOut, force3D:true}, "label--3-=0.4")
+                .to(rewind, .4, {opacity: 0.75, ease:Power4.easeInOut, force3D:true}, "label--3-=0.4")
+
+
+
+        ;
+
+
+// play timeline on click, reverse animation if active
+
+        Xit.on('mousedown', function() {
+            playCont.toggleClass('active');
+            circ.toggleClass('active');
+            $(this).toggleClass('active');
+
+            if ( $(this).hasClass('active') ) {
+                tl.play().timeScale(0.67);
+                // timeScale adjusts playback speed (2.0 = 2x double-time, 0.5 = 1/2 half-timed)
+            }
+            else {
+                tl.reverse().timeScale(0.67);
+            }
+        });
+
+    });
 
 </script>
+<script>
+    $(document).ready(function(){
+
+
+});
+
+</script>
+<script type="text/javascript">
+    function startTime() {
+        var today = new Date();
+        var monthNames = ["January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ];
+        var dayNames = [ "Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday","Saturday" ];
+        var y = today.getFullYear();
+        var m =  monthNames[today.getMonth()];
+        var dw= dayNames[today.getDay()];
+        var dm = today.getDate();
+        document.getElementById('dayofweek').innerHTML = dw ;
+        document.getElementById('dayofmonth').innerHTML= dm ;
+        document.getElementById('month').innerHTML = m ;
+        document.getElementById('year').innerHTML = y ;
+    }
+    startTime();
+</script>
+
 </body>
 </html>
