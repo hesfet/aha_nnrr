@@ -708,3 +708,7 @@ transition-property: transform, box-shadow;
 #Bar4 {animation-duration: 400ms; animation-delay: 399ms;}
 #Bar5 {animation-duration: 400ms; animation-delay: 532ms;}
 #Bar6 {animation-duration: 400ms; animation-delay: 665ms;}
+.sscol1{
+    background-image: url("../img/human-man.png");
+
+}
