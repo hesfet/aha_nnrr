@@ -14,7 +14,7 @@ body{
 
 }
 .container{
-    width: 90%;
+    width: 80%;
 }
 .c1{
     height: 1200px;
@@ -709,6 +709,28 @@ transition-property: transform, box-shadow;
 #Bar5 {animation-duration: 400ms; animation-delay: 532ms;}
 #Bar6 {animation-duration: 400ms; animation-delay: 665ms;}
 .sscol1{
-    background-image: url("../img/human-man.png");
-
+    z-index: 100;
+    position: absolute;
+    float: left;
+    right: 238px;
+    top: 80px;
+    text-align: left;
+    display: block;
+}
+.sscol1 img {
+    display: inline-block;
+    float: left;
+}
+.sscol2{
+    z-index: 100;
+    position: absolute;
+    float: right;
+    left: 180px;
+    top: 75px;
+    text-align: right;
+    display: block;
+}
+.sscol2 img {
+    display: inline-block;
+    float: right;
 }
